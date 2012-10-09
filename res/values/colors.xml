@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+-->
+<resources>
+
+    <color name="defaultParticipantBackgroundColor">#888</color>
+    <color name="defaultParticipantCaptionColor">#eee</color>
+    <color name="defaultFallacyTitleColor">#EEF</color>
+    <color name="defaultFallacyDescriptionColor">#ddd</color>
+    <color name="listDivider">#f0f</color>
+
+    <color name="participantstatsgraph_background">#FF223344</color>
+    
+</resources>

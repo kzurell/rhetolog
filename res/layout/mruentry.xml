@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<name.zurell.kirk.apps.android.rhetolog.MRUView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mruentry"
+    android:layout_width="@dimen/mruentry_layoutwidth"
+    android:layout_height="@dimen/mruentry_layoutheight"
+     >
+
+    <ImageView
+        android:id="@+id/mruImage"
+        android:layout_width="@dimen/mruimage_layoutwidth"
+        android:layout_height="@dimen/mruimage_layoutheight"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/mruDefaultTitle"
+        android:src="@drawable/add_mru" />
+    
+    <!--  TextView
+        android:id="@+id/mruTitle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/mruDefaultTitle"
+        android:textAppearance="?android:attr/textAppearanceSmall" /-->
+
+    
+
+</name.zurell.kirk.apps.android.rhetolog.MRUView>

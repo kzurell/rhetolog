@@ -1,0 +1,107 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/session_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SessionDetailActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_medium"
+        android:background="@drawable/participantbezel"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium" >
+
+        <TextView
+            android:id="@+id/detailTitle"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detailLoading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sessionDeleteButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sessionDeleteButton" />
+
+            <Button
+                android:id="@+id/sessionRenameButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sessionRenameButtonLabel" />
+
+            <Button
+                android:id="@+id/sendsessionbutton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/sendsessionbuttonlabel" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutParticipants"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_medium"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/participantbezel"
+            android:padding="@dimen/padding_medium" >
+
+        <RelativeLayout
+            android:id="@+id/layoutParticipantControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_small" >
+
+            <TextView
+                android:id="@+id/participantsDetailsTitle"
+                style="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/detailParticipantsLabel" />
+
+            <Button
+                android:id="@+id/addParticipantButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right|center_vertical"
+                android:text="@string/addparticipantbuttonlabel" />
+            
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/participantList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_large"
+            tools:listitem="@layout/participantlistentry" 
+            >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

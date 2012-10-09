@@ -1,0 +1,40 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/addparticipant"
+        android:icon="@drawable/social_add_person"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_addparticipant_main"
+        android:titleCondensed="@string/menu_addparticipant_cond_main">
+    </item>
+    <!--
+         item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" /
+    -->
+    <item
+        android:id="@+id/menu_sessions"
+        android:orderInCategory="50"
+        android:showAsAction="always"
+        android:title="@string/sessionsmenulabel"
+        android:titleCondensed="@string/sessionsmenulabel">
+    </item>
+    <item
+        android:id="@+id/addsession"
+        android:showAsAction="always"
+        android:title="@string/menu_addsession_main"
+        android:titleCondensed="@string/menu_addsession_cond_main">
+    </item>
+    
+    <item android:id="@+id/menu_setsessiondateandtime" android:title="@string/menusetsessiondateandtime"></item>
+    <item android:id="@+id/webhelp" android:titleCondensed="@string/menuwebhelp" android:title="@string/menuwebhelp"></item>
+    <item android:id="@+id/about" android:titleCondensed="@string/aboutMenuItem" android:title="@string/aboutMenuItem"></item>
+
+</menu>

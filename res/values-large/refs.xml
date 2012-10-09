@@ -1,0 +1,10 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<resources>
+    <item type="layout" name="activity_session_list">@layout/activity_session_twopane</item>
+</resources>

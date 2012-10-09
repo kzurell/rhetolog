@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/participantview_layoutwidth"
+    android:layout_height="@dimen/participantview_layoutheight"
+    android:background="@color/defaultParticipantBackgroundColor" >
+
+    <ImageView
+        android:id="@+id/participantPhotoEmpty"
+        android:layout_width="@dimen/participantphoto_layoutwidth"
+        android:layout_height="@dimen/participantphoto_layoutheight"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/defaultParticipantContentDescription"
+        android:src="@drawable/rhetolog_participant" />
+
+    <TextView
+        android:id="@+id/participantCaptionEmpty"
+        android:layout_width="@dimen/participantcaption_layoutwidth"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:ellipsize="end"
+        android:text="@string/defaultParticipantCaption"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/defaultParticipantCaptionColor" />
+
+</RelativeLayout>

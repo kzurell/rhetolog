@@ -1,0 +1,47 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    style themename parent @android:style/Theme.Orig
+    
+      appearances 
+      item name=android:appearance @style/style_element_below
+    
+      attr
+      item styleable android:textColorPrimary #color
+      
+      default widget style
+      item android:widgetStyle @style/MyButtonStyle_below
+     
+    style appearance parent @android:style/appearance
+      item name=android:styleable ?android:attr/attr_from_in_theme_above
+      item name=android:styleable constant 
+      
+    style widgetname parent @android:style/Widget.widgetname 
+      item android:background @drawable
+      item android:windowBackground @drawable
+      
+   	 
+    -->
+
+    <style name="Theme.Rhetolog" parent="@android:style/Theme.Holo">
+
+        
+    </style>
+
+    <!--
+    Appearances, parent to @android:style/appearance
+    - can use values in the theme element with ?android:attr/xyz named in theme as android:xyz 
+    -->
+
+
+    <!-- Widget, etc. styles -->
+
+    
+</resources>

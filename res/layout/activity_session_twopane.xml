@@ -1,0 +1,35 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/session_twopane_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Theme.Rhetolog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/sessiontwopanelayout_marginLeft"
+    android:layout_marginRight="@dimen/sessiontwopanelayout_marginRight"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context=".SessionListActivity" >
+
+    <fragment
+        android:id="@+id/session_list"
+        android:name="name.zurell.kirk.apps.android.rhetolog.SessionListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/simple_list_item_activated_1"
+         />
+
+    <FrameLayout android:id="@+id/session_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<resources>
+
+    <string name="app_name">Rhetolog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Rhetolog</string>
+    <string name="moreButtonLabelText">More…</string>
+    <string name="titlePlaceholder">(…)</string>
+    <string name="placeholderDescription">(…)</string>
+    <string name="defaultContentDescription">(no content loaded)</string>
+    <string name="defaultClockValue">&#x2013;&#x2013;:&#x2013;&#x2013;:&#x2013;&#x2013;</string>
+    <string name="defaultParticipantCaption">(…)</string>
+    <string name="defaultParticipantContentDescription">(unnamed participant)</string>
+    <string name="contentproviderlabel">Rhetolog Event Content Provider</string>
+    <string name="eventcontentproviderlabel">Rhetolog Event Content Provider</string>
+    <string name="eventcontentproviderdescription">A content provider for Rhetolog events</string>
+    <string name="eventcontentproviderauthority">name.zurell.kirk.apps.android.Rhetolog.contentprovider</string>
+    <string name="wallclocklabel">Wall Clock</string>
+    <string name="elapsedtimelabel">Elapsed Time</string>
+    <string name="mruDefaultTitle">(…)</string>
+    <string name="title_session_detail">Session Detail</string>
+    <string name="title_session_list">Sessions</string>
+    <string name="sessionsmenulabel">Sessions</string>
+    <string name="newsessionlabel">New Session</string>
+    <string name="newsessionnamehint">Name for new session</string>
+    <string name="newsessionnamedefault">…</string>
+    <string name="postpreferenceonlabel">Post immediately</string>
+    <string name="postpreferenceofflabel">Post only batch</string>
+    <string name="postpreferenceontext">Posting</string>
+    <string name="postpreferenceofftext">No posting</string>
+    <string name="postpreferencetitle">Immediate Posting</string>
+    <string name="postpreferencesummary">Enable to post in real time.</string>
+    <string name="title_activity_preferences">Rhetolog Preferences</string>
+    <string name="postpreferencekey">postpreference</string>
+    <string name="preferencesGeneralTitle">General Preferences</string>
+    <string name="postTargetURLkey">posttarget</string>
+    <string name="postTargetTitle">Site to post to</string>
+    <string name="postTargetSummary">The site to post to</string>
+    <string name="groupPreferenceName">group</string>
+    <string name="groupPreferenceTitle">Contacts Group</string>
+    <string name="groupPreferenceSummary">Choose a group name from your People</string>
+    <string name="addparticipantbuttonlabel">Add…</string>
+    <string name="menu_addparticipant_main">Add New Participant</string>
+    <string name="menu_addparticipant_cond_main">New Participant</string>
+    <string name="menu_addsession_main">Create New Session</string>
+    <string name="menu_addsession_cond_main">New Session</string>
+    <string name="sessionclocklabel">Session Time</string>
+    <string name="setsessiondatemenulabel">Set Session Date</string>
+    <string name="setsessiondatemenulabelcond">Date</string>
+    <string name="setsessiontimemenulabel">Set Session Time</string>
+    <string name="setsessiontimemenulabelcond">Set Time</string>
+    <string name="sessionclocktoggleonlabel">Running</string>
+    <string name="sessionclocktoggleofflabel">Stopped</string>
+    <string name="sessionclocktogglecontentdescription">Toggle session clock</string>
+    <string name="sessionclocktoggletext">Session Clock Toggle Button</string>
+    <string name="postcategorytitle">Posting</string>
+    <string name="postcategorysummary">Options for posting events online</string>
+    <string name="sendsessionbuttonlabel">Send…</string>
+    <string name="sessionDeleteButton">Delete</string>
+    <string name="emptyParticipantListMessage">Tap &quot;New Participant&quot; to add participants to this session</string>
+    <string name="elapsedTimeLabel">Elapsed Time</string>
+    <string name="detailLoading">Loading detail…</string>
+    <string name="detailParticipantsLabel">Participants</string>
+    <string name="sessiondatetimelabel">Session Date and Time</string>
+    <string name="menusetsessiondateandtime">Set Session Date and Time</string>
+    <string name="menuwebhelp">Web Help</string>
+    <string name="sessiontimedatedialogtitle">Set Session Time and Date</string>
+    <string name="sessiondatetimedialogsetbuttontext">Set Session Date and Time</string>
+    <string name="sessionRenameButtonLabel">Rename…</string>
+    <string name="aboutMenuItem">About…</string>
+    <string name="aboutText">&amp;copy; Kirk Zurell. Licensed under MIT License. Portions &amp;copy; Information is Beautiful.</string>
+    <string name="mainstartendsessiontoggle">Start/End Session</string>
+    <string name="mainendsessiontoggle">End Session</string>
+    <string name="mainstartsessiontoggle">Start Session</string>
+    <string name="mainpauseresumetoggle">Pause/Resume</string>
+    <string name="mainpausetoggle">Pause</string>
+    <string name="mainresumetoggle">Resume</string>
+    <string name="participantsListEmptyTextLabel">Participants</string>
+    <string name="shiftmruleft">Left</string>
+    <string name="shiftmruright">Right</string>
+
+    <string name="newSessionDefaultTitle">New Session</string>
+
+    <string name="permissionReadLabel">Read Rhetolog Data</string>
+
+    <string name="permissionReadDescription">Allows the application to read Rhetolog data, including participant, session, and event records.</string>
+
+    <string name="entrypluralsingle">entry</string>
+    <string name="entrypluralplural">entries</string>
+    
+    <string name="dismissAboutButtonLabel">Dismiss</string>
+    
+    <string name="aboutDialogTitle">About Rhetolog</string>
+    
+</resources>

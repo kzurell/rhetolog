@@ -1,0 +1,93 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="timing_height">40dp</dimen>
+    <dimen name="sessionclock_height">40dp</dimen>
+    
+    <dimen name="sessionClockTextSize">16sp</dimen>
+    <dimen name="sessionToggleTextSize">16sp</dimen>
+    
+    <!-- Fallacy List -->
+    <dimen name="fallacylist_height">0dp</dimen>
+    
+    <!-- Fallacy Entry -->
+    <dimen name="fallacyentry_layoutheight">100dp</dimen>
+
+    <dimen name="fallacyicon_layoutheight">100dp</dimen>
+    <dimen name="fallacyicon_layoutwidth">100dp</dimen>
+    
+    <dimen name="fallacytextlayout_padding">5dp</dimen>
+    
+    <!-- Participant List -->
+    
+    <dimen name="participantlistlayout_height">160dp</dimen>
+    <dimen name="participantlistlayout_leftmargin">30dp</dimen>
+	<dimen name="participantlistlayout_rightmargin">30dp</dimen>
+	
+	<dimen name="participantlist_height">150dp</dimen>
+	
+	<!-- Participant Entry -->
+	<dimen name="participantview_layoutwidth">150dp</dimen>
+	<dimen name="participantview_layoutheight">150dp</dimen>
+	
+	<dimen name="participantphoto_layoutwidth">96dp</dimen>
+	<dimen name="participantphoto_layoutheight">96dp</dimen>
+	
+	<dimen name="participantcaption_layoutwidth">150dp</dimen>
+	
+	<!--  Participant List (Sessions) -->
+	
+	<dimen name="participantlistentry_layoutheight">96dp</dimen>
+	
+	<dimen name="participantstatsgraph_layoutwidth">200dp</dimen>
+	<dimen name="participantstatsgraph_layoutheight">40dp</dimen>
+	
+	<dimen name="participantdetailspadding">3dp</dimen>
+	
+	<dimen name="participantstatsgraph_padding">3dp</dimen>
+	
+	<!-- MRU List -->
+	<dimen name="mrulist_height">100dp</dimen>
+	
+	<!-- MRU Entry -->
+	<dimen name="mruentry_layoutheight">100dp</dimen>
+	<dimen name="mruentry_layoutwidth">100dp</dimen>
+	
+	<dimen name="mruimage_layoutwidth">100dp</dimen>
+	<dimen name="mruimage_layoutheight">100dp</dimen>
+	
+	
+	<!-- Shift MRU buttons -->
+	<dimen name="shiftmruleftbutton_width">50dp</dimen>
+	<dimen name="shiftmrurightbutton_width">50dp</dimen>
+	
+	
+	<!-- Session List Fragment -->
+	<dimen name="sessionlistfragment_marginleft">16dp</dimen>
+	<dimen name="sessionlistfragment_marginright">16dp</dimen>
+	
+	<!-- Session Twopane Layout -->
+	
+	<dimen name="sessiontwopanelayout_marginLeft">16dp</dimen>
+	<dimen name="sessiontwopanelayout_marginRight">16dp</dimen>
+	
+	<!-- Session Details View -->
+	
+	<dimen name="sessiondetailslayout_layoutwidth">250dp</dimen>
+	<dimen name="sessiondetailslayout_layoutheight">40dp</dimen>
+	
+	
+	
+	
+	
+</resources>

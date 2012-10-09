@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:id="@+id/timing"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/timing_height"
+	    >
+
+		<ToggleButton
+		    android:id="@+id/sessionToggle"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="2"
+		    android:text="@string/mainstartendsessiontoggle"
+		    android:textSize="@dimen/sessionToggleTextSize"
+		    android:textOff="@string/mainstartsessiontoggle"
+		    android:textOn="@string/mainendsessiontoggle" />
+		
+		<name.zurell.kirk.apps.android.rhetolog.DigitalSessionClock
+		    android:id="@+id/sessionTime"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/sessionclock_height"
+		    android:layout_weight="1"
+		    android:gravity="center|center_horizontal"
+		    android:text="@string/defaultClockValue" 
+		    android:textSize="@dimen/sessionClockTextSize"/>
+
+		<ToggleButton
+		    android:id="@+id/pauseToggle"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="2"
+		    android:text="@string/mainpauseresumetoggle"
+		    android:textSize="@dimen/sessionToggleTextSize"
+		    android:textOff="@string/mainpausetoggle"
+		    android:textOn="@string/mainresumetoggle" />
+
+	</LinearLayout>
+
+	<ListView
+	    android:id="@+id/fallacyList"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_margin="@dimen/padding_medium"
+	    android:layout_weight="1"
+	    android:background="@drawable/participantbezel"
+	    tools:listitem="@layout/fallacyentry" />
+	
+	<FrameLayout
+	    android:id="@+id/participantListLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/participantlistlayout_height" 
+	    android:layout_marginLeft="@dimen/participantlistlayout_leftmargin"
+	    android:layout_marginRight="@dimen/participantlistlayout_rightmargin"
+	    >
+
+	     <!--  TextView 
+	        android:id="@+id/emptyParticipantListView"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:text="@string/emptyParticipantListMessage"
+	        android:background="#80800000"
+	        android:visibility="gone"/-->
+
+		<TextView
+		    android:id="@+id/participantListLabel"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:text="@string/participantsListEmptyTextLabel"
+		    android:textAppearance="?android:attr/textAppearanceSmall" />
+	     
+	    <com.devsmart.android.ui.HorizontalListView
+	        android:id="@+id/participantList"
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/participantlist_height"
+	        android:layout_gravity="left|center_vertical"
+	        android:background="@drawable/participantbezel" 
+	       	tools:listitem="@layout/participantentry">
+	        
+	    </com.devsmart.android.ui.HorizontalListView>
+	    
+	</FrameLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+		<ImageButton
+		    android:id="@+id/shiftMRUleft"
+		    android:layout_width="@dimen/shiftmruleftbutton_width"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:contentDescription="@string/shiftmruleft"
+		    android:onClick="moveMRUleft"
+		    android:src="@drawable/leftarrow" />
+
+	<com.devsmart.android.ui.HorizontalListView
+	    android:id="@+id/MostRecentlyUsed"
+	    android:layout_width="match_parent"
+	    android:layout_weight="10"
+		android:layout_height="@dimen/mrulist_height"
+	    android:layout_gravity="center" 
+	    tools:listitem="@layout/mruentry"/>
+
+	    <ImageButton
+	        android:id="@+id/shiftMRUright"
+	        android:layout_width="@dimen/shiftmrurightbutton_width"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="right"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/shiftmruright"
+	        android:onClick="moveMRUright"
+	        android:src="@drawable/rightarrow" />
+    
+	</LinearLayout>
+	
+		
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<resources>
+
+
+    <!-- Main Activity -->
+    
+    <dimen name="sessionClockTextSize">12sp</dimen>
+    <dimen name="sessionToggleTextSize">12sp</dimen>
+    
+    
+    
+    <dimen name="fallacyentry_layoutheight">80dp</dimen>
+
+    <dimen name="fallacyicon_layoutheight">80dp</dimen>
+    <dimen name="fallacyicon_layoutwidth">80dp</dimen>
+    
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    
+    <!-- Participant List -->
+    
+    <dimen name="participantlistlayout_height">110dp</dimen>
+    <dimen name="participantlistlayout_leftmargin">20dp</dimen>
+	<dimen name="participantlistlayout_rightmargin">20dp</dimen>
+	
+	<dimen name="participantlist_height">105dp</dimen>
+	
+	<!-- Participant Entry -->
+	<dimen name="participantview_layoutwidth">105dp</dimen>
+	<dimen name="participantview_layoutheight">105dp</dimen>
+	
+	<dimen name="participantphoto_layoutwidth">96dp</dimen>
+	<dimen name="participantphoto_layoutheight">96dp</dimen>
+	
+	<dimen name="participantcaption_layoutwidth">105dp</dimen>
+    
+	
+	
+    <!-- MRU List -->
+	<dimen name="mrulist_height">80dp</dimen>
+	
+	<!-- MRU Entry -->
+	<dimen name="mruentry_layoutheight">80dp</dimen>
+	<dimen name="mruentry_layoutwidth">80dp</dimen>
+	
+	<dimen name="mruimage_layoutwidth">80dp</dimen>
+	<dimen name="mruimage_layoutheight">80dp</dimen>
+	
+	
+	
+</resources>

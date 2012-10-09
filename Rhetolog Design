@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+
+- Interface for participant add without contacts.
+
+
+
+Script Notes
+
+
+
+mogrify -comment "Copyright (C) 2012 Kirk Zurell. See source NOTICE file for licensing information."

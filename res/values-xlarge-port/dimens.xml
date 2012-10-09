@@ -1,0 +1,16 @@
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+ <resources>
+
+
+    <!-- Main Activity -->
+    
+    <dimen name="sessionClockTextSize">12sp</dimen>
+    <dimen name="sessionToggleTextSize">12sp</dimen>
+    
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<name.zurell.kirk.apps.android.rhetolog.FallacyView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fallacyEntry"
+        android:layout_width="match_parent"
+    android:layout_height="@dimen/fallacyentry_layoutheight"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/fallacyIcon"
+        android:layout_width="@dimen/fallacyicon_layoutwidth"
+        android:layout_height="@dimen/fallacyicon_layoutheight"
+        android:contentDescription="@string/defaultContentDescription"
+        android:src="@drawable/empty" />
+
+    <LinearLayout
+        android:id="@+id/fallacyTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:padding="@dimen/fallacytextlayout_padding"
+        >
+
+        <TextView
+            android:id="@+id/fallacyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titlePlaceholder"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/defaultFallacyTitleColor" />
+
+        <TextView
+            android:id="@+id/fallacyDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholderDescription"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/defaultFallacyDescriptionColor" />
+
+    </LinearLayout>
+
+</name.zurell.kirk.apps.android.rhetolog.FallacyView>

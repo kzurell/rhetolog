@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Copyright (c) 2012 Kirk Zurell
+ *
+ * See the file LICENSE for copying permission.
+ */
+ -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sessiondetailslayout_layoutwidth"
+    android:layout_height="@dimen/sessiondetailslayout_layoutheight" >
+
+    <EditText
+        android:id="@+id/sessionname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/newsessionnamehint" >
+
+        <requestFocus />
+        
+    </EditText>
+
+</FrameLayout>
